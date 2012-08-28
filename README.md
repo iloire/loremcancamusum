@@ -20,5 +20,15 @@ console.log(loremcancamusum.cancamuse(paragraphs, separator));
 
 - la mayoría de los directores ejecutivos imaginan que los nuevos nichos de mercado podrían evolucionar ante todos los pasados resultados comunmente utilizados en caso de que tengan que mantenerse correctamente posicionados , o algunos valores al alza verán comprometida su visiónperiférica ante una parte representativa de los protocolos de actuación
 
+## Examples
+
+### Server
+
+```node examples/server.js
+
+### Client
+
+Open examples/browser.index in your web browser.
+
 ## License
 MIT

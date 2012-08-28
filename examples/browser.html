@@ -5,10 +5,15 @@
 </head>
 <body>
 
-	<div id="container" />
+	<h3>HTML</h3>
+	<div id="html_container"></div>
+
+	<h3>Plain text</h3>
+	<textarea id="textarea_container" rows="5" cols="40" style="width:100%"></textarea>
 
 	<script>
-	document.getElementById('container').innerHTML = lorem_cancamusum.cancamuse(5, '<p>- ');
+	document.getElementById('html_container').innerHTML = '<ul>' + lorem_cancamusum.cancamuse(5, '<li>', '</li>') + '</ul>';
+	document.getElementById('textarea_container').value = lorem_cancamusum.cancamuse(5, '\n- ');
 	</script>
 </body>
 </html>
